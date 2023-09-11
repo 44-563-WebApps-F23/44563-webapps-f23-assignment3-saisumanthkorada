@@ -58,5 +58,20 @@
                 <td> 2-3 hours</td>
             </tr>
         </table>
+        <hr>
+        <h1> CODE DISPLAY</h1>
+        <blockquote> Equalize Heights of Divs </blockquote>
+        <a href="https://css-tricks.com/snippets/jquery/equalize-heights-of-divs/"> Click here to get the source </a>
+        <pre>
+            var maxHeight = 0;
+
+$("div").each(function(){
+   if ($(this).height() > maxHeight) { maxHeight = $(this).height(); }
+});
+
+$("div").height(maxHeight);
+
+        </pre>
+    
     </body>
 </html>
